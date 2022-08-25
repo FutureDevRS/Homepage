@@ -1,0 +1,225 @@
+html {
+  height: 240vh;
+}
+
+body {
+  background-color: #E6E8F4;
+  margin: 0px;
+  font-family: "Roboto", Arial, sans-serif;
+}
+
+.header-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  height: 42px;
+  background: #fff;
+}
+
+.header-left-column {
+  display: flex;
+}
+
+.header-btn {
+  margin: 0px;
+  padding: 0px;
+  font-size: 15px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.human-benchmark-container button:hover {
+  background: white;
+}
+
+.header-btn:hover {
+  background: rgb(242, 242, 242);
+}
+
+.header-left-column i {
+  margin-right: 10px;
+  color: lightgrey;
+  font-size: 12px;
+}
+
+.header-left-column p {
+  margin: 20px;
+}
+
+.header-right-column {
+  display: flex;
+}
+
+.header-right-column p {
+  margin: 20px;
+}
+
+.human-benchmark-container {
+  width: 100%;
+  height: 488px;
+  background-color: #2B87D1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+}
+
+.lightning-logo {
+  font-size: 8.5em;
+  margin-top: 0.4em;
+}
+
+.human-benchmark-container button {
+  background-color: #FFD154;
+  border: none;
+  margin-bottom: 30px;
+  width: 140px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 16px;
+  margin-top: 5px;
+  border-radius: 2px;
+}
+
+.human-benchmark-container h1 {
+  font-size: 4em;
+  margin-bottom: 0px;
+  margin-top: 10px;
+}
+
+.human-benchmark-container p {
+  font-size: 1.5em;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.games-wrapper {
+  margin: auto;
+  width: 58%;
+}
+
+.game-box {
+  background-color: #fff;
+  transition: transform 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+  cursor: pointer;
+  text-align: center;
+}
+
+.game-box:hover {
+  transform: translate(0px, -20px);
+  box-shadow: 0px 6px 8px 0px rgba(0, 0, 0, 0.53);
+}
+
+.game-box:hover i {
+  color: orange;
+}
+
+.sequence-memory {
+  position: relative;
+}
+
+.aim-trainer {
+  position: relative;
+}
+
+.new-tile {
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  background: rgb(245, 50, 100);
+  width: 55px;
+  height: 35px;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+}
+
+.games-wrapper > .top-games {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 18px;
+  margin-top: 35px;
+}
+
+.game-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.game-box i {
+  font-size: 4em;
+  color: #95C3E8;
+}
+
+.game-box p {
+  padding: 0px 34px;
+  font-size: 1.3em;
+}
+
+.sequence-memory {
+  padding-top: 10px;
+}
+
+.aim-trainer {
+  padding-top: 12px;
+}
+
+.visual-memory i {
+  color: #95C3E8;
+  font-size: 4em;
+}
+
+.typing i {
+  color: #95C3E8;
+  font-size: 4em;
+}
+
+.two-box-games {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 25px;
+  margin-top: 25px;
+}
+
+.visual-memory {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.typing {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 5px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.footer p {
+  margin-bottom: 0px;
+  color: #A0A0A8;
+}
+
+.footer a {
+  text-decoration: none;
+  padding-top: 4px;
+  color: #45B1FE;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}/*# sourceMappingURL=main.css.map */
